@@ -1,0 +1,14 @@
+Algoritmo en Lenguaje Humano
+
+Definir la plantilla base (CuentaBancaria):
+    Crear un atributo privado saldo que inicie con un valor predeterminado (o el monto recibido al crear la cuenta).
+    Crear un método público depositar(monto): Si el monto es mayor que 0, sumarlo al saldo.
+    Crear un método público retirar(monto): Si el monto es mayor que 0 y menor o igual al saldo actual, restarlo del saldo. De lo contrario, rechazar la transacción.
+    Crear un método público obtener_saldo(): Devolver el saldo actual sin permitir modificación directa.
+
+Instanciar y Probar:
+    Crear una cuenta con un saldo inicial de $100.
+    Depositar $50.
+    Intentar retirar $30 (operación exitosa).
+    Intentar retirar $200 (operación rechazada por fondos insuficientes).
+    Consultar y mostrar el saldo final.
